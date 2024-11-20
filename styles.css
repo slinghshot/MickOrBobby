@@ -72,7 +72,8 @@ body {
     appearance: none;
     width: 20px;
     height: 20px;
-    background: #4CAF50;
+    background: var(--thumb-image, #4CAF50);
+    background-size: cover;
     cursor: pointer;
     border-radius: 50%;
 }
@@ -80,7 +81,8 @@ body {
 #slider::-moz-range-thumb {
     width: 20px;
     height: 20px;
-    background: #4CAF50;
+    background: var(--thumb-image, #4CAF50);
+    background-size: cover;
     cursor: pointer;
     border-radius: 50%;
 }
